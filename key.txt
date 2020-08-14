@@ -1,0 +1,20 @@
+key:7279f6795b74d20c2cb4e2be33ad47cd
+
+indx of citys:http://bulk.openweathermap.org/sample/
+-------------------------------------------------------------------------------------
+call by city name:
+api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
+
+api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={your api key}
+
+api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={your api key}
+
+---------------------------------------------------------------------------------------
+call by city ID:
+api.openweathermap.org/data/2.5/weather?id={city id}&appid={your api key}
+---------------------------------------------------------------------------------------
+call by geographic coordinates:
+api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={your api key}
+--------------------------------------------------------------------------------------
+call by ZIP code:
+api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={your api key}

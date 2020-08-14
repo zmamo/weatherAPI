@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+html{
+	scrollbar-width:none;
+}
+body{
+	background:#002233;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box{
+	width: 450px;
+	/* height: 550px; */
+	text-align: center;
+	margin:30px 0;
+	background:#c2c2d6;
+	border-radius: 14px;
+	color:#002233;
+	box-shadow: 0px 1px 50px #545a794b,
+				0px -1px 50px #545a794b,
+				inset 0px -9px 6px #111111ab,
+				inset 0px 9px 6px #1a1a1a8c,
+				inset 9px 0px 6px #111111ab,
+				inset -9px 0px 6px #111111ab;
+	position: relative;
+	overflow-x: hidden;
+}
+.notif{
+	padding: 5px;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 15px;;
+	background:#ffe6e6;
+	color: red;
+	visibility: hidden;
+	position: absolute;
+	top: 1rem;
+}
+.notif>p{
+	padding: 10px;
+	font-size: 20px;
+
+}
+.icon-weather{
+	border-radius: 50%;
+	margin: auto; 
+	margin-top: 2rem;
+	padding: 20px;
+	width: 11rem;
+    height: 11rem;
+    display: flex;
+	justify-content: center;
+	box-shadow:inset 0px 7px 15px rgba(51, 51, 51,0.4),
+					 0px -10px 7px rgba(242, 242, 242,0.6),
+					 
+	 				 0px 7px 15px rgba(51, 51, 51,0.4),
+	 			inset 0px -10px 10px rgba(242, 242, 242, 0.6)
+}
+
+.box .title >p{
+	margin:15px;
+	padding: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.temp-value >p{
+	margin:15px;
+	padding: 10px;
+	font-size:50px;
+	margin-bottom: 0;
+}
+.description{
+	padding: 20px;
+}
+.description >p{
+	font-size:40px;
+	font-weight: bolder;
+}
+.location{
+	padding: 20px;
+	font-size: 25px;
+}
+
+
+/*
+#c2c2d6
+#ff9966
+*/
