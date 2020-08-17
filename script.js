@@ -1,4 +1,4 @@
-//--------------------------------------------By @hassan_agueoum | haguezoum@gmail.com-------------------------------------
+//--------------------------------------------By @hassan_agueoum | hassanaguezoum@gmail.com-------------------------------------
 const iconElement   = document.querySelector(".icon-weather");
 const temvalElement = document.querySelector(".temp-value p");
 const descElement   = document.querySelector(".description p");
